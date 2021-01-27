@@ -36,9 +36,9 @@
       <div class="mb-3">
         <label for="search-term" class="form-label">Search Term</label>
         <input
-          type="search-term"
+          type="text"
           class="form-control"
-          id="search-topic"
+          id="search-term"
         />
         <div id="search-term" class="form-text">
           Search your desired topic
@@ -58,24 +58,24 @@
         <option value="10">Ten</option>
       </select>
       <div class="mb-3">
-        <label for="startYear" class="form-label">Start Year</label>
+        <label for="start-year" class="form-label">Start Year</label>
         <input
-          type="input"
+          type="text"
           class="form-control"
           id="start-year"
         />
       </div>
       <div class="mb-3">
-        <label for="endYear" class="form-label">End Year (optional)</label>
+        <label for="end-year" class="form-label">End Year (optional)</label>
         <input
-          type="input"
+          type="text"
           class="form-control"
           id="end-year"
         />
       </div>
    
-      <button type="submit" class="btn"><i class="fas fa-search"></i></button>
-      <button type="clear" class="btn"><i class="fas fa-trash-alt"></i></button>
+      <button type="button" class="btn" id="submit"><i class="fas fa-search"></i></button>
+      <button type="button" class="btn" id="clear"><i class="fas fa-trash-alt"></i></button>
     </form>
 
     <script
